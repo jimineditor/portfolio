@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JIMIN — Video Editor Portfolio</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="is-loading">
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#home" class="logo">JIMIN<span class="dot">.</span> <span class="tag">VIDEO EDITOR</span></a>
+    <nav class="nav-links" id="navlinks">
+      <a href="#home">HOME</a>
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <span class="eyebrow"><span class="live"></span> REC · Video Editor / Motion</span>
+    <h1>영상으로<br>이야기를 <span class="accent-text">완성</span>합니다<span class="thin">.</span></h1>
+    <p class="lead">게임·유튜브 콘텐츠 편집을 전문으로 하는 영상 편집자 <strong>신지민</strong>의 포트폴리오입니다. 컷 편집부터 자막·모션까지, 몰입감 있는 결과물을 만듭니다.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">포트폴리오 보기
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
+      <button type="button" class="btn btn-ghost" id="openContact">연락하기</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="num">5+</div><div class="lbl">협업 채널</div></div>
+      <div class="stat"><div class="num">24+</div><div class="lbl">편집 영상</div></div>
+      <div class="stat"><div class="num accent-text">∞</div><div class="lbl">디테일에 대한 집착</div></div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Cut Editing</span><span>Subtitle &amp; Typography</span><span>Motion Graphics</span><span>Game Content</span><span>YouTube</span><span>Sound Sync</span>
+      <span>Cut Editing</span><span>Subtitle &amp; Typography</span><span>Motion Graphics</span><span>Game Content</span><span>YouTube</span><span>Sound Sync</span>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-kicker">Portfolio</div>
+      <h2 class="sec-title">Selected Work</h2>
+      <p class="sec-sub">주제별로 편집한 영상들입니다. 각 카테고리 안에서 조회수 높은 순으로 나열했습니다.</p>
+    </div>
+    <div class="filters reveal" id="filters"></div>
+    <div id="catWrap"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-kicker">About</div>
+      <h2 class="sec-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>안녕하세요, 영상 편집자 <strong>신지민</strong> 입니다. 게임 콘텐츠와 유튜브 영상을 중심으로, 시청자가 끝까지 몰입할 수 있는 편집을 지향합니다.</p>
+        <p>컷 편집의 리듬감, 가독성 높은 자막, 감각적인 모션 그래픽까지 — 하나의 영상이 완성되기까지 모든 디테일을 세심하게 다듬습니다.</p>
+        <div class="career">
+          <div class="career-title">Career</div>
+          <div class="career-list">
+            <div class="career-item"><span class="role">O2 BLAST</span><span class="period">2021.10 – 2023.02</span></div>
+            <div class="career-item"><span class="role">POKER FACE</span><span class="period">2024.08 – 2025.08</span></div>
+            <div class="career-item"><span class="role">O2 BLAST</span><span class="period">2025.09 – 2026.06</span></div>
+            <div class="career-item"><span class="role">BELOSREA &amp; DONGHAK <em>편집자</em></span><span class="period">—</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="skills reveal" id="skills">
+        <div class="skill-row"><div class="top"><span>컷 편집 / 리듬</span><span class="pct">95%</span></div><div class="bar"><span style="--w:95%"></span></div></div>
+        <div class="skill-row"><div class="top"><span>자막 / 타이포그래피</span><span class="pct">90%</span></div><div class="bar"><span style="--w:90%"></span></div></div>
+        <div class="skill-row"><div class="top"><span>모션 그래픽</span><span class="pct">85%</span></div><div class="bar"><span style="--w:85%"></span></div></div>
+        <div class="skill-row"><div class="top"><span>썸네일 / 디자인</span><span class="pct">80%</span></div><div class="bar"><span style="--w:80%"></span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-block reveal">
+      <div class="contact-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M19.3 5.3A17 17 0 0 0 15.1 4l-.2.4c1.5.4 2.9 1 4.2 1.9A13.8 13.8 0 0 0 7 6.3c1.3-.9 2.7-1.5 4.2-1.9L11 4a17 17 0 0 0-4.2 1.3C4.1 9.2 3.4 13 3.7 16.7A17 17 0 0 0 8.9 19.4l1.1-1.8c-.6-.2-1.2-.5-1.7-.9l.4-.3a12.2 12.2 0 0 0 10.6 0l.4.3c-.5.4-1.1.7-1.7.9l1.1 1.8a17 17 0 0 0 5.2-2.7c.4-4.3-.7-8-2.9-11.4ZM9.7 14.4c-1 0-1.9-.9-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.9 2.1-1.9 2.1Zm6.7 0c-1 0-1.9-.9-1.9-2.1s.8-2.1 1.9-2.1 1.9 1 1.9 2.1-.8 2.1-1.9 2.1Z"></path></svg>
+      </div>
+      <div class="contact-kicker">Contact</div>
+      <h2>함께 작업하실래요?</h2>
+      <p class="contact-desc">영상 편집 의뢰, 협업 문의 모두 환영합니다. 디스코드나 이메일로 편하게 연락 주세요.</p>
+      <div class="contact-links">
+        <a href="https://discord.com/users/jimin719" target="_blank" rel="noopener" class="btn btn-primary">Discord · jimin719</a>
+        <a href="mailto:jimin0377@naver.com" class="btn btn-ghost">Email 보내기</a>
+        <button class="btn btn-ghost" id="copyDiscord">아이디 복사</button>
+      </div>
+      <p class="contact-id">DISCORD : <strong>jimin719</strong> &nbsp;·&nbsp; EMAIL : <strong>jimin0377@naver.com</strong></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 신지민 (JIMIN) — Video Editor Portfolio</span>
+    <span class="mono">EDIT · MOTION · STORY</span>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal" id="modalBox" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="닫기">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+</body>
+</html>
