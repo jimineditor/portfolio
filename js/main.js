@@ -168,14 +168,24 @@
   }
   function openContactModal(){
     openModal(`<div class="modal-contact">
-        <h3>연락하기</h3>
-        <p>영상 편집 의뢰·협업 문의 환영합니다.<br>디스코드나 이메일로 편하게 연락 주세요.</p>
+        <div class="modal-kicker">Video Editor</div>
+        <h3>Jimin</h3>
+        <p class="modal-intro">게임 콘텐츠와 유튜브 영상을 중심으로 컷 편집, 자막, 타이포그래피, 썸네일 디자인까지 다루는 영상 편집자입니다.</p>
+        <div class="modal-profile">
+          <div><span>Focus</span><strong>Game Content · YouTube</strong></div>
+          <div><span>Strength</span><strong>Rhythm Cut · Subtitle · Motion</strong></div>
+          <div><span>Career</span><strong>O2 BLAST · POKER FACE · DONGHAK</strong></div>
+        </div>
+        <p class="modal-note">영상 편집 의뢰와 협업 문의는 아래 연락처로 편하게 남겨주세요.</p>
         <div class="row">
           <a href="https://discord.com/users/jimin719" target="_blank" rel="noopener" class="btn btn-primary">Discord · jimin719</a>
           <a href="mailto:jimin0377@naver.com" class="btn btn-ghost">Email 보내기</a>
           <button type="button" class="btn btn-ghost" id="copyDiscordModal">아이디 복사</button>
         </div>
-        <p class="contact-id">DISCORD : <strong>jimin719</strong> &nbsp;·&nbsp; EMAIL : <strong>jimin0377@naver.com</strong></p>
+        <div class="modal-contact-info">
+          <p>DISCORD <strong>jimin719</strong></p>
+          <p>EMAIL <strong>jimin0377@naver.com</strong></p>
+        </div>
       </div>`);
     const cb=document.getElementById('copyDiscordModal');
     if(cb) cb.onclick=()=>copyDiscord(cb);
