@@ -26,7 +26,7 @@ index.html
 
 ```text
 영상으로
-신지민
+Jimin
 Career
 O2 BLAST
 POKER FACE
@@ -38,7 +38,7 @@ jimin0377@naver.com
 예시:
 
 ```html
-<p class="lead">게임·유튜브 콘텐츠 편집을 전문으로 하는 영상 편집자 <strong>신지민</strong>의 포트폴리오입니다.</p>
+<p class="lead">게임·유튜브 콘텐츠 편집을 전문으로 하는 영상 편집자 Jimin의 포트폴리오입니다.</p>
 ```
 
 위 문장을 바꾸면 메인 소개 문구가 바뀝니다.
