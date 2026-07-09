@@ -1,10 +1,50 @@
 # JIMIN Portfolio
 
-Video editor portfolio site for JIMIN.
+이 레포는 영상 편집자 신지민(JIMIN)의 포트폴리오 내용을 담고 있습니다.
 
-This repository is a static website built with plain HTML, CSS, and JavaScript. It is structured for simple GitHub Pages deployment from the `main` branch.
+게임 콘텐츠와 유튜브 영상 편집을 중심으로, 컷 편집의 리듬감과 자막, 타이포그래피, 모션 그래픽을 활용해 시청자가 끝까지 몰입할 수 있는 결과물을 보여주는 정적 웹 포트폴리오입니다.
 
-## Structure
+## 소개
+
+신지민은 게임 및 유튜브 콘텐츠 편집을 전문으로 하는 영상 편집자입니다.
+
+포트폴리오에는 작업 영상, 경력, 편집 역량, 연락처 정보가 포함되어 있으며, 영상들은 카테고리별로 정리되어 조회수 기준으로 확인할 수 있습니다.
+
+## 주요 경력
+
+- O2 BLAST: 2021.10 - 2023.02
+- POKER FACE: 2024.08 - 2025.08
+- O2 BLAST: 2025.09 - 2026.06
+- BELOSREA & DONGHAK: 편집자
+
+## 작업 카테고리
+
+포트폴리오에는 총 24개 이상의 편집 영상이 포함되어 있습니다.
+
+- 메이플스토리&랜드
+- DONGHAK
+- BELOSREA
+- POKER FACE
+- O2 BLAST
+
+## 편집 역량
+
+- 컷 편집 / 리듬
+- 자막 / 타이포그래피
+- 모션 그래픽
+- 썸네일 / 디자인
+- 게임 콘텐츠 편집
+- 유튜브 콘텐츠 편집
+- 사운드 싱크와 몰입감 있는 흐름 구성
+
+## 연락처
+
+- Discord: `jimin719`
+- Email: `jimin0377@naver.com`
+
+영상 편집 의뢰와 협업 문의를 위한 연락처는 포트폴리오 사이트의 Contact 섹션에서도 확인할 수 있습니다.
+
+## 사이트 구성
 
 ```text
 .
@@ -15,40 +55,12 @@ This repository is a static website built with plain HTML, CSS, and JavaScript. 
     └── main.js
 ```
 
-## Files
+- `index.html`: 포트폴리오 본문, 소개, 경력, 연락처 섹션
+- `css/styles.css`: 레이아웃, 반응형 스타일, 애니메이션
+- `js/main.js`: 영상 데이터, 카테고리 필터, 영상 모달, 연락처 복사 기능
 
-- `index.html`: Main page markup and portfolio sections.
-- `css/styles.css`: Layout, responsive styling, and subtle animations.
-- `js/main.js`: Video data, category filtering, modal behavior, copy button, and motion interactions.
+## 배포
 
-## Local Preview
+GitHub Pages에서 `main` 브랜치를 기준으로 배포할 수 있습니다.
 
-Open `index.html` directly in a browser, or run a simple static server from the repository root:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-## Editing
-
-To add or update portfolio videos, edit the `VIDEOS` array in `js/main.js`.
-
-Each item uses this format:
-
-```js
-{ cat: "DONGHAK", id: "YouTubeVideoId", views: 32000 }
-```
-
-- `cat`: Category name. It should match one of the category names in `CATS`.
-- `id`: YouTube video ID.
-- `views`: View count used for sorting within each category.
-
-## Deployment
-
-Push changes to `main`. If GitHub Pages is enabled for this repository, the site will be served from `index.html`.
+사이트의 진입 파일은 `index.html`입니다.
