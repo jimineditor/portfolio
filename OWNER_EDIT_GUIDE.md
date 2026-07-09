@@ -135,10 +135,10 @@ css/styles.css
 
 ```css
 :root{
-  --bg:#09090c;
-  --text:#f2f2f5;
-  --accent:#8c6bff;
-  --accent-2:#c44bff;
+  --bg:#0e0e10;
+  --text:#f2f2f0;
+  --accent:#5ac8fa;
+  --accent-2:#8ddcff;
 }
 ```
 
